@@ -1,0 +1,57 @@
+html,body {}
+html{overflow-x:hidden;} 
+
+body {
+    font-size: 16px;
+    background: linear-gradient(to top, #b1b1b1 0%, #abb9c5 100%);
+}
+
+test {
+
+    background: #000000;
+    background: linear-gradient(to top, #020522 0%, #04024600 100%);
+}
+
+.bk {
+    background: #000000;
+    
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    
+}
+
+.bk2 {
+    background-image: url('../images/moon-gfdb4b2421_1280.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+.head-bk {
+    background-image: url('../images/moon-gfdb4b2421_1280.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.head-imgs {
+    background-image: url('../images/headimg-02s.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.btn-purple {
+    background-color: rgb(161, 14, 187);
+    border: rgb(161, 14, 187);
+    color: #fff;
+}
+.btn-purple:hover{
+    background-color: rgb(124, 9, 147);
+    color: #fff;
+}
