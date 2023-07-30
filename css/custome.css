@@ -4,6 +4,9 @@ html{overflow-x:hidden;}
 body {
     font-size: 16px;
     background: linear-gradient(to top, #b1b1b1 0%, #abb9c5 100%);
+    background-image: url('../images/bk.png');
+    background-size: 200px 200px;
+    background-repeat: repeat;
 }
 
 test {
@@ -32,11 +35,42 @@ test {
 
 
 .head-bk {
-    background-image: url('../images/moon-gfdb4b2421_1280.jpg');
+    background-image: url('../images/banner.jpg');
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
 }
+
+.top-menu {
+    padding: 5px 10px;
+    margin-right: 5px;
+    display: block;
+    width: 120px;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: #1b4d9e;
+    float: left;
+}
+a.top-menu:hover{
+    background-color: #888686;
+}
+@media (max-width: 991.98px) {
+    .top-menu {
+        width: 80px;
+        font-size: 13px;
+        line-height: 30px;
+       
+    }
+ }
+
+ .wrapbody{
+    margin: 0px auto;
+    padding:0px;
+    width: 100%;
+    max-width: 780px;
+ }
+
+
 
 .head-imgs {
     background-image: url('../images/headimg-02s.jpg');
@@ -44,6 +78,13 @@ test {
     background-position: center;
 }
 
+
+.vote-box{
+    margin: 0px auto;
+    padding: 1px 10px 10px 10px;
+    width: 100%;
+    max-width: 765px;
+}
 
 
 .btn-purple {
